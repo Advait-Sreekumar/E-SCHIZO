@@ -48,3 +48,15 @@ Troubleshooting
 - If gaze appears jittery, increase filter_length.
 - If the wrong camera opens, change cv2.VideoCapture(0) to another index.
 - For better accuracy, use consistent lighting and this webcam: https://amzn.to/43of401.
+
+
+How to run this on your device:
+1) Download requirements.txt:    pip install -r requirements.txt
+2) Run python MonitorTracking.py
+3) Press L to setup position
+4) Look at centre and press C
+5) Press M
+6) Look at the point and press spacebar while looking at it
+7) To quit the program press Q
+8) In terminal run python GazeVisualizer.py
+9) You will see where the person looked at during the process
